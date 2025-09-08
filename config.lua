@@ -3,11 +3,11 @@ Config = {}
 -- Discord webhook settings
 Config.Discord = {
     enabled = true,
-    webhook = "https://discord.com/api/webhooks/1414355211975397627/3-KPXmE6UJnoY-yYlluKI_btfMNJDph8Gydl994Kt4awbsxMEQcdjl_SLh-c5z9staZO", -- Replace with your Discord webhook URL
+    webhook = "https://discord.com/api/webhooks", -- Replace with your Discord webhook URL
     botName = "Money Logger",
     avatar = "https://i.imgur.com/4M34hi2.png",
     color = 16776960, -- Yellow color
-    leaderboardWebhook = "https://discord.com/api/webhooks/1414355277985349714/rfZlLrazQ1nt66lIgpwjtqoo5m9C4dR8tidJ9tW_8xohnvKMB5PsKPu912_4buImLi0u", -- Separate webhook for leaderboard (optional)
+    leaderboardWebhook = "https://discord.com/api/webhooks", -- Separate webhook for leaderboard (optional)
 }
 
 -- Money logging settings

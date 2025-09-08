@@ -1168,10 +1168,6 @@ exports('LogBankTransfer', function(player, actionType, amount, currentBalance, 
     })
 end)
 
-exports('SendDailyLeaderboard', function()
-    return exports.ez_money:SendDailyLeaderboard()
-end)
-
 exports('LogMoneyChange', function(citizenid, playerName, moneyType, action, amount, oldAmount, newAmount, reason, targetId)
     if not Config.Database.enabled then return end
     
